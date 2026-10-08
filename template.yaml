@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Core Infrastructure Stack
+
+Parameters:
+  Environment:
+    Type: String
+    Description: Target Deployment Environment
+
+Resources:
+  AppBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "my-app-storage-${Environment}-${AWS::AccountId}"
