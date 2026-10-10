@@ -2,9 +2,5 @@
   {
     "ParameterKey": "Environment",
     "ParameterValue": "prod"
-  },
-  {
-    "ParameterKey": "BucketName",
-    "ParameterValue": "my-app-storage-prod-216612007747"
   }
 ]
