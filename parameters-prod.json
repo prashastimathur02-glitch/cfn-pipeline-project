@@ -1,6 +1,6 @@
 [
   {
     "ParameterKey": "Environment",
-    "ParameterValue": "my-app-storage-prod-216612007747"
+    "ParameterValue": "prod"
   }
 ]
