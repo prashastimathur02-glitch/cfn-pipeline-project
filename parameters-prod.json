@@ -1,6 +1,5 @@
-[
-  {
-    "ParameterKey": "Environment",
-    "ParameterValue": "prod"
+{
+  "Parameters": {
+    "Environment": "prod"
   }
-]
+}
